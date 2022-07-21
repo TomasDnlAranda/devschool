@@ -1,0 +1,118 @@
+.ing__container-img {
+	display: none;
+}
+
+.ing__container-text {
+	padding: 8.5rem 1rem 6rem;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	font-weight: bold;
+	color: var(--bg-darkmode-light);
+}
+
+.ing__container-text p {
+	font-size: 1.05rem;
+	line-height: 1.5;
+	margin: 1rem 0 0 0;
+}
+
+.ing__complemento {
+	position: absolute;
+	top: 60px;
+	left: 15px;
+	width: max-content;
+	font-size: 0.85rem;
+	padding: 7.5px 12.5px 20px;
+	letter-spacing: 1.3px;
+	font-weight: bold;
+	background: rgb(250, 126, 43);
+	background: linear-gradient(
+		341deg,
+		rgba(250, 126, 43, 1) 25%,
+		rgba(253, 104, 53, 1) 50%,
+		rgba(251, 74, 69, 1) 75%
+	);
+	color: var(--bg-ligthmode);
+}
+
+.ing__container-text h3 {
+	font-size: 3rem;
+	line-height: 1;
+	color: var(--orange-tono-1);
+	width: 70%;
+	margin-bottom: 0.5rem;
+}
+
+.ing__container-text button {
+	background: rgb(250, 126, 43);
+	background: linear-gradient(
+		341deg,
+		rgba(250, 126, 43, 1) 25%,
+		rgba(253, 104, 53, 1) 50%,
+		rgba(251, 74, 69, 1) 75%
+	);
+	border: none;
+	padding: 1rem 3rem;
+	border-radius: 50.5px;
+	color: var(--bg-ligthmode);
+	font-size: 0.85rem;
+	margin: 2rem auto 0;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	display: flex;
+	width: max-content;
+	border: 1.4px solid var(--orange-tono-1);
+}
+
+@media (min-width: 425px) {
+	.ing__container-text h3 {
+		font-size: 4rem;
+		line-height: 1;
+		color: var(--orange-tono-1);
+		width: 70%;
+	}
+}
+@media (min-width: 687px) {
+	.ing__container-img {
+		display: flex;
+		width: 35%;
+	}
+	.ing__container-text {
+		width: 65%;
+	}
+	.ing__container {
+		display: flex;
+		width: 100%;
+	}
+	.ing__container img {
+		display: flex;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.ing__container-text p {
+		font-weight: bold;
+		line-height: 2;
+		width: 90%;
+	}
+}
+
+@media (min-width: 1075px) {
+	.ing__container-text h3 {
+		font-size: 4.75rem;
+		font-weight: bold;
+		line-height: 1.1;
+	}
+
+	.ing__container-text p {
+		font-size: 1.25rem;
+		font-weight: bold;
+		line-height: 2;
+		width: 90%;
+	}
+}

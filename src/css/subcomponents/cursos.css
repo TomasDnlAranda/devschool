@@ -1,0 +1,48 @@
+.cursos__esconde {
+	position: relative;
+	top: 0px;
+	left: 0;
+	background: var(--bg-darkmode);
+	z-index: -200;
+	transition: all 0.5s;
+	user-select: none;
+	color: var(--bg-ligthmode);
+}
+
+.cursos__appear {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: var(--bg-darkmode);
+	position: relative;
+	color: var(--bg-ligthmode);
+	left: 0;
+	top: 100px;
+	display: none;
+	transition: all 0.5s;
+	user-select: none;
+}
+
+.cursos__options {
+	width: 100vw;
+	text-align: center;
+	padding: 0.75rem 0;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.cursos__options:hover {
+	background: rgb(250, 126, 43);
+	background: linear-gradient(
+		341deg,
+		rgba(250, 126, 43, 1) 25%,
+		rgba(253, 104, 53, 1) 50%,
+		rgba(251, 74, 69, 1) 75%
+	);
+	color: var(--bg-ligthmode);
+}
+
+.cursos__full-stack {
+	color: var(--bg-ligthmode);
+}

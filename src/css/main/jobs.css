@@ -1,0 +1,221 @@
+.jobs__container-img img {
+	display: none;
+	width: 50%;
+}
+
+.jobs__container {
+	padding: 11rem 0 6rem;
+	background: var(--bg-darkmode-light);
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.jobs__container-text {
+	margin: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	font-weight: bold;
+	color: var(--orange-tono-1);
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.jobs__container-text h3 {
+	font-size: 3rem;
+	font-weight: bold;
+	line-height: 1.1;
+}
+
+.jobs__container-text p {
+	font-weight: bolder;
+	color: var(--orange-tono-2);
+	font-size: 1.25rem;
+	text-shadow: 1px 2px 5px #fa7e2b;
+	line-height: 1.25;
+}
+
+.jobs__container-text span {
+	font-weight: bolder;
+	color: var(--bg-ligthmode);
+	font-size: 1rem;
+	line-height: 2;
+}
+
+.jobs__container-text a {
+	background: rgb(250, 126, 43);
+	background: linear-gradient(
+		341deg,
+		rgba(250, 126, 43, 1) 25%,
+		rgba(253, 104, 53, 1) 50%,
+		rgba(251, 74, 69, 1) 75%
+	);
+	border: none;
+	padding: 1rem 3rem;
+	border-radius: 50.5px;
+	color: var(--bg-ligthmode);
+	font-size: 0.85rem;
+	margin: 2rem auto 0;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	display: flex;
+	width: max-content;
+	border: 1.4px solid var(--orange-tono-1);
+}
+
+.jobs__container-text a:hover {
+	background: transparent;
+	border: 1.4px solid var(--orange-tono-1);
+	color: var(--orange-tono-1);
+}
+
+.jobs__programa {
+	position: absolute;
+	top: -90px;
+	left: 0;
+	font-size: 0.85rem !important;
+	padding: 7.5px 12.5px 20px;
+	letter-spacing: 1.3px;
+	font-weight: bold;
+	background: rgb(250, 126, 43);
+	background: linear-gradient(
+		341deg,
+		rgba(250, 126, 43, 1) 25%,
+		rgba(253, 104, 53, 1) 50%,
+		rgba(251, 74, 69, 1) 75%
+	);
+	color: var(--bg-ligthmode);
+}
+
+@media (min-width: 425px) {
+	.jobs__container-text h3 {
+		font-size: 4rem;
+		line-height: 1;
+		width: 80%;
+	}
+}
+@media (min-width: 687px) {
+	.jobs__container-img img {
+		display: flex;
+		width: 100%;
+		height: 55rem;
+		object-fit: cover;
+	}
+	.jobs__container-img {
+		width: 50%;
+	}
+
+	.jobs__container-text {
+		width: 50%;
+		justify-content: start;
+		padding: 11rem 0 0;
+	}
+
+	.jobs__container {
+		padding: 0;
+		display: flex;
+		width: 100%;
+	}
+
+	.jobs__programa {
+		position: absolute;
+		top: 80px;
+		right: 0;
+		width: max-content;
+		font-size: 0.85rem;
+		padding: 7.5px 12.5px 20px;
+		letter-spacing: 1.3px;
+		font-weight: bold;
+		background: rgb(250, 126, 43);
+		background: linear-gradient(
+			341deg,
+			rgba(250, 126, 43, 1) 25%,
+			rgba(253, 104, 53, 1) 50%,
+			rgba(251, 74, 69, 1) 75%
+		);
+		color: var(--bg-ligthmode);
+	}
+
+	.jobs__container-text h3 {
+		font-size: 3.75rem;
+		font-weight: bold;
+		line-height: 1.1;
+	}
+}
+
+@media (min-width: 1075px) {
+	.jobs__programa {
+		position: absolute;
+		top: 45px;
+		right: 0;
+		width: max-content !important;
+	}
+	.jobs__container-text h3 {
+		font-size: 5.5rem;
+		font-weight: bold;
+		line-height: 1.1;
+		width: 80%;
+		line-height: 1.1;
+	}
+	.jobs__container-text {
+		align-items: start;
+		padding: 8.5rem 0 0;
+	}
+
+	.jobs__container-text p {
+		font-weight: bolder;
+		color: var(--orange-tono-2);
+		font-weight: bolder;
+		text-shadow: 1px 2px 5px #fa7e2b;
+		font-size: 1.15rem;
+		line-height: 1.5;
+		letter-spacing: 1.2px;
+		width: 90%;
+	}
+
+	.jobs__container-text span {
+		font-weight: bolder;
+		color: var(--bg-ligthmode);
+		font-size: 1.2rem;
+		line-height: 2;
+		width: 90%;
+	}
+
+	.jobs__container-text a {
+		background: rgb(250, 126, 43);
+		background: linear-gradient(
+			341deg,
+			rgba(250, 126, 43, 1) 25%,
+			rgba(253, 104, 53, 1) 50%,
+			rgba(251, 74, 69, 1) 75%
+		);
+		border: none;
+		padding: 1rem 3rem;
+		border-radius: 50.5px;
+		color: var(--bg-ligthmode);
+		font-size: 1.05rem;
+		margin: 2rem auto;
+		font-family: 'Chakra Petch', sans-serif;
+		font-weight: bold;
+		display: flex;
+		width: max-content;
+		border: 1.4px solid var(--orange-tono-1);
+	}
+	.jobs__container-img {
+		width: 40%;
+	}
+
+	.jobs__container-text {
+		width: 60%;
+		justify-content: start;
+	}
+
+	.jobs__container {
+		padding: 0;
+		display: flex;
+		width: 100%;
+	}
+}

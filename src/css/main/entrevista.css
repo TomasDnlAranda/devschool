@@ -1,0 +1,158 @@
+.ent__container-img {
+	display: none;
+}
+.ent__container-img img {
+	display: none;
+	width: 100%;
+	object-fit: cover;
+}
+
+.ent__container {
+	padding: 6rem 0;
+	background: var(--bg-darkmode-light);
+}
+
+.ent__container-text {
+	font-weight: bolder;
+	color: var(--bg-ligthmode);
+	padding: 0 1rem;
+}
+
+.ent__container-text h3 {
+	font-weight: bolder;
+	color: var(--orange-tono-1);
+	font-size: 2.75rem;
+}
+
+.ent__container-text p {
+	font-weight: bolder;
+	font-size: 1rem;
+	width: 90%;
+	line-height: 2;
+	margin-bottom: 2rem;
+}
+
+.ent__list {
+	display: flex;
+	color: var(--bg-ligthmode);
+	margin-top: 1rem;
+	font-weight: 100;
+}
+
+.ent__icon {
+	color: var(--orange-tono-1);
+	font-size: 1.3rem;
+	margin-right: 0.5rem;
+	font-weight: bolder;
+}
+
+@media (min-width: 416px) {
+	.ent__container-text h3 {
+		font-weight: bolder;
+		color: var(--orange-tono-1);
+		font-size: 3.5rem;
+	}
+}
+
+@media (min-width: 687px) {
+	.ent__container-text h3 {
+		font-weight: bolder;
+		color: var(--orange-tono-1);
+		font-size: 3.5rem;
+		width: 50%;
+		text-align: start;
+	}
+
+	.ent__container-text p {
+		color: var(--bg-ligthmode);
+		line-height: 2;
+		font-size: 1.25rem;
+		font-weight: bolder;
+		width: 95%;
+	}
+
+	.ent__list {
+		font-size: 1.25rem;
+	}
+
+	.ent__icon {
+		font-size: 1.6rem;
+		margin-right: 0.75rem;
+	}
+	.ent__container {
+		display: flex;
+		padding: 0;
+	}
+	.ent__container-text {
+		width: 65%;
+		padding: 4rem 1rem;
+	}
+
+	.ent__container-img {
+		display: flex;
+		width: 35%;
+	}
+	.ent__container-img img {
+		display: flex;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+@media (min-width: 775px) {
+	.ent__container-text h3 {
+		font-weight: bolder;
+		color: var(--orange-tono-1);
+		font-size: 3.5rem;
+		width: 80%;
+		text-align: start;
+		line-height: 1.1;
+	}
+
+	.ent__container-text p {
+		color: var(--bg-ligthmode);
+		line-height: 2;
+		font-size: 1.25rem;
+		font-weight: bolder;
+		width: 95%;
+		margin-bottom: rem;
+	}
+
+	.ent__list {
+		font-size: 1.3rem;
+	}
+
+	.ent__icon {
+		font-size: 1.6rem;
+		margin-right: 0.75rem;
+	}
+	.ent__container {
+		display: flex;
+		padding: 0;
+	}
+	.ent__container-text {
+		width: 50%;
+		padding: 4rem 1rem;
+	}
+
+	.ent__container-img {
+		display: flex;
+		width: 50%;
+	}
+	.ent__container-img img {
+		display: flex;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+@media (min-width: 1075px) {
+	.ent__container-text h3 {
+		font-size: 5.2rem;
+		width: 50%;
+	}
+	.ent__container-text {
+		width: 50%;
+		padding: 4rem 1rem 10rem;
+	}
+}

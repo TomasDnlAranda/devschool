@@ -1,0 +1,129 @@
+.comp-preg__container-close {
+	width: 80%;
+	margin: 0.25rem auto;
+	height: 50px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.comp-preg__container-open {
+	width: 80%;
+	margin: 0.75rem auto 1.5rem;
+	height: 100%;
+	cursor: pointer;
+}
+
+.comp-preg__container-up {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: var(--bg-darkmode);
+}
+
+.comp-preg__container-down {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.comp-preg__icon {
+	color: var(--bg-darkmode);
+	font-weight: bold;
+}
+
+.comp-preg__respuesta {
+	color: var(--bg-darkmode);
+	font-size: 0.9rem;
+}
+
+.comp-preg__recalcar {
+	color: var(--bg-darkmode);
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.comp-preg__footer {
+	color: #484848;
+	font-size: 0.7rem;
+	font-weight: bold;
+	margin-top: 0.75rem;
+	font-style: italic;
+	margin-top: 1rem;
+}
+
+@media (min-width: 554px) {
+	.comp-preg__container-up {
+		font-size: 1rem;
+	}
+
+	.comp-preg__container-close {
+		margin: 0.75rem auto;
+	}
+
+	.comp-preg__respuesta {
+		font-size: 1rem;
+	}
+	.comp-preg__recalcar {
+		font-size: 1rem;
+	}
+	.comp-preg__footer {
+		font-size: 0.8rem;
+	}
+}
+
+@media (min-width: 554px) {
+	.comp-preg__container-up {
+		font-size: 1rem;
+	}
+
+	.comp-preg__container-close {
+		margin: 0.75rem auto;
+	}
+
+	.comp-preg__respuesta {
+		font-size: 1rem;
+	}
+	.comp-preg__recalcar {
+		font-size: 1rem;
+	}
+	.comp-preg__footer {
+		font-size: 0.8rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.comp-preg__container-close {
+		width: 70%;
+	}
+	.comp-preg__container-open {
+		width: 70%;
+	}
+
+	.comp-preg__container-up {
+		font-size: 1.25rem;
+	}
+
+	.comp-preg__container-close {
+		margin: 0.75rem auto;
+	}
+
+	.comp-preg__respuesta {
+		font-size: 1.25rem;
+	}
+	.comp-preg__recalcar {
+		font-size: 1.25rem;
+	}
+	.comp-preg__footer {
+		font-size: 0.9rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.comp-preg__container-close {
+		width: 60%;
+	}
+	.comp-preg__container-open {
+		width: 60%;
+	}
+}

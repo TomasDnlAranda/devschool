@@ -1,0 +1,113 @@
+.cc__container {
+	background: var(--bg-darkmode);
+	margin: 2.25rem auto;
+	width: 80%;
+	color: var(--bg-ligthmode);
+	padding: 0 1rem 0.1rem;
+	border: 2px solid var(--orange-tono-1);
+}
+.cc__container h4 {
+	font-size: 2rem;
+	text-align: center;
+	color: var(--orange-tono-1);
+	border-bottom: 3px solid var(--orange-tono-1);
+	width: max-content;
+	margin: 2rem auto 0.75rem;
+	padding-top: 1rem;
+	line-height: 1;
+}
+
+.cc__container p {
+	font-size: 0.9rem;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 2.5rem;
+	font-style: italic;
+}
+.cc__container h5 {
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: bold;
+	margin: 1rem 0;
+	text-align: center;
+	color: var(--orange-tono-3);
+}
+.cc__container h4 span {
+	color: var(--orange-tono-1);
+	font-size: 1.85rem;
+}
+
+.cc__resaltar {
+	margin: 0.6rem 0;
+	text-align: start;
+	line-height: 1.6;
+}
+
+.cc__container a {
+	background: rgb(250, 126, 43);
+	background: linear-gradient(
+		341deg,
+		rgba(250, 126, 43, 1) 25%,
+		rgba(253, 104, 53, 1) 50%,
+		rgba(251, 74, 69, 1) 75%
+	);
+	border: 1.4px solid var(--orange-tono-1);
+	padding: 1rem 2rem;
+	border-radius: 30px;
+	color: var(--bg-ligthmode);
+	font-size: 1rem;
+	margin: 3rem auto;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	display: flex;
+	width: max-content;
+	transition: 0s all !important;
+}
+.cc__container a:hover {
+	background: transparent;
+	border: 1.4px solid var(--orange-tono-1);
+	color: var(--orange-tono-1);
+}
+
+.cc__container-svg {
+	display: flex;
+	flex-direction: column;
+	min-width: min-content;
+	justify-content: start;
+	align-items: start;
+}
+
+@media (min-width: 560px) {
+	.comisiones__container-comisiones {
+		flex-wrap: wrap;
+		flex-direction: row;
+		display: flex;
+	}
+	.cc__container {
+		background: var(--bg-darkmode);
+		margin: 2.25rem auto;
+		width: 35%;
+		color: var(--bg-ligthmode);
+		padding: 0 1rem;
+	}
+}
+
+@media (min-width: 850px) {
+	.cc__container {
+		background: var(--bg-darkmode);
+		margin: 2.25rem auto;
+		width: 40%;
+		color: var(--bg-ligthmode);
+		padding: 0 1rem;
+	}
+}
+
+@media (min-width: 850px) {
+	.cc__container {
+		background: var(--bg-darkmode);
+		margin: 2.25rem auto;
+		width: 25%;
+		color: var(--bg-ligthmode);
+		padding: 0 1rem;
+	}
+}

@@ -1,0 +1,80 @@
+.ifs__icons {
+	color: var(--bg-ligthmode);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem;
+	background: var(--bg-darkmode);
+	width: 75px;
+	padding: 0.5rem;
+	box-shadow: 0px 0px 32px 1px rgba(0, 0, 0, 0.31);
+	-webkit-box-shadow: 0px 0px 32px 1px rgba(0, 0, 0, 0.31);
+	-moz-box-shadow: 0px 0px 32px 1px rgba(0, 0, 0, 0.31);
+	border-radius: 15px;
+}
+
+.ifs__icons div {
+	font-size: 2.5rem;
+	margin-top: 0.5rem;
+}
+
+.ifs__icons span {
+	font-size: 0.75rem;
+}
+
+.ifs__html {
+	color: #f06529;
+}
+
+.ifs__css {
+	color: #264de4;
+}
+
+.ifs__b {
+	color: #563d7c;
+}
+
+.ifs__js {
+	color: #f0db4f;
+}
+
+.ifs__react {
+	color: #88dded;
+}
+
+.ifs__node {
+	color: #68a063;
+}
+
+.ifs__ex {
+	color: #828282;
+}
+
+.ifs__mongo {
+	color: #4db33d;
+}
+
+.ifs__git {
+	color: #f1502f;
+}
+
+.ifs__github {
+	color: #ffffff;
+}
+.ifs__npm {
+	color: #cb3837;
+}
+
+@media (min-width: 1095px) {
+	.ifs__icons {
+		padding: 1rem;
+	}
+	.ifs__icons div {
+		font-size: 3rem;
+	}
+
+	.ifs__icons span {
+		font-size: 0.75rem;
+	}
+}

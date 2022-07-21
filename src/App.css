@@ -1,0 +1,31 @@
+:root {
+	--dark-: #000000;
+	--bg-darkmode: #080d2f;
+	--bg-darkmode-light: #0d154b;
+	--bg-ligthmode: #ffffff;
+	--orange-tono-1: #fa7e2b;
+	--orange-tono-2: #fd6835;
+	--orange-tono-3: #fb4a45;
+	--whatsapp-: #00bb2d;
+}
+
+::selection {
+	background: var(--orange-tono-1);
+	color: var(--bg-darkmode);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: var(--bg-ligthmode);
+}
+
+h3 {
+	margin: 0;
+}

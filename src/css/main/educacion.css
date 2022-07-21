@@ -1,0 +1,157 @@
+.ed__container {
+	background: var(--bg-darkmode);
+	padding: 5rem 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ed__title {
+	font-size: 3.2rem;
+	font-weight: bolder;
+	line-height: 1.1;
+	color: var(--orange-tono-1);
+	margin: 1rem 0 0 0;
+}
+
+.ed__subtitle {
+	line-height: 1.2;
+	color: var(--orange-tono-2);
+	font-size: 1.35rem;
+	text-shadow: 1px 2px 5px #fa7e2b;
+	font-weight: bolder;
+	margin: 2rem 0 0 0;
+}
+
+.ed__description {
+	color: var(--bg-ligthmode);
+	line-height: 2;
+	font-size: 1rem;
+	font-weight: bolder;
+	margin: 2rem 0 0 0;
+}
+
+.ed__video {
+	height: 100px;
+	display: none;
+}
+
+.ed__container-video {
+	display: flex;
+	width: 100%;
+}
+
+.ed__container-list {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+}
+
+.ed__list {
+	display: flex;
+	color: var(--bg-ligthmode);
+	margin-top: 1rem;
+}
+
+.ed__icon {
+	color: var(--orange-tono-1);
+	font-size: 1.3rem;
+	margin-right: 0.5rem;
+	font-weight: bolder;
+}
+
+@media (min-width: 687px) {
+	.ed__title {
+		font-size: 4rem;
+		width: 80%;
+	}
+
+	.ed__subtitle {
+		line-height: 1.2;
+		font-size: 1.5rem;
+		margin: 3rem 0 0 0;
+	}
+	.ed__description {
+		color: var(--bg-ligthmode);
+		line-height: 2;
+		font-size: 1.15rem;
+		font-weight: bolder;
+		width: 90%;
+		margin: 3rem 0 0 0;
+	}
+
+	.ed__list {
+		font-size: 1.25rem;
+	}
+
+	.ed__icon {
+		font-size: 1.6rem;
+		margin-right: 0.75rem;
+	}
+}
+
+@media (min-width: 1075px) {
+	.ed__title {
+		font-size: 6rem;
+		width: 80%;
+	}
+
+	.ed__subtitle {
+		line-height: 0;
+		font-size: 1.7rem;
+		margin: 3rem 0 0 0;
+	}
+	.ed__description {
+		color: var(--bg-ligthmode);
+		line-height: 2;
+		font-size: 1.25rem;
+		font-weight: bolder;
+		width: 90%;
+		margin: 4rem 0 0 0;
+	}
+
+	.ed__list {
+		font-size: 1rem;
+	}
+
+	.ed__icon {
+		font-size: 1.3rem;
+		margin-right: 0.75rem;
+	}
+
+	.ed__video {
+		height: 100%;
+		display: flex;
+		width: 60%;
+		box-shadow: 0px 1px 16px 5px rgba(250, 126, 43, 1);
+		-webkit-box-shadow: 0px 1px 16px 5px rgba(250, 126, 43, 1);
+		-moz-box-shadow: 0px 1px 16px 5px rgba(250, 126, 43, 1);
+		margin: 1rem;
+	}
+
+	.ed__container-video {
+		display: flex;
+		width: 100%;
+		margin-top: 2rem;
+	}
+
+	.ed__container-list {
+		width: 40%;
+		display: flex;
+		justify-content: center;
+		margin-right: 2rem;
+	}
+}
+
+@media (min-width: 1142px) {
+	.ed__list {
+		font-size: 1.3rem;
+	}
+
+	.ed__icon {
+		font-size: 1.6rem;
+		margin-right: 0.75rem;
+	}
+}
